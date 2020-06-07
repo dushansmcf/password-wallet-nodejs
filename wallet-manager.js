@@ -4,7 +4,7 @@ const chalk = require('chalk')
 const cryptoUtil = require('crypto-js');
 
 const master_password_file_name = 'master_password.txt';
-const data_wallet_file_name = 'data_wallet.txt';
+const data_wallet_file_name = 'data_wallet.json';
 
 const init_wallet_with_master_password = (master_password) => {
     var isMasterPasswordFileExists = fs.existsSync(master_password_file_name);
