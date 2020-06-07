@@ -17,7 +17,7 @@ You can add the data reference name, username and password in to the wallet as f
 ```node
 node wallet.js add --master_password="your password" --name="my_gmail_account" --uname="dushanchamin@gmail.com" --passwd="My Gmail Account Password"
 ```
-The above command will create another text file called "data_wallet.txt". This is the data store for the wallet and all usernames and passwords are encrypted. Therefore you can share this file in your cloud environment or any public place where you can access easily. 
+The above command will create another file called "data_wallet.json". This is the data store for the wallet and all usernames and passwords are encrypted. Therefore you can share this file in your cloud environment or any public place where you can access easily. 
 
 ### Read data in the wallet
 You can read the data by its given reference name as follows.
@@ -37,8 +37,6 @@ node wallet.js list --master_password="your password" --name="my_gmail_account"
 To retrieve the sepcific password you have to run the 'read' command as above separately.
 
 Hope you enjoy this small NodeJS Smart Wallet.
-
-Thank You!
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
